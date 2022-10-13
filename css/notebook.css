@@ -1,0 +1,317 @@
+/*PRINCIPAL*/
+
+html {
+    scroll-behavior: smooth;
+  }
+
+.main{
+    background-color: white ;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 1000px;
+    padding-bottom: 0px;
+    box-shadow: 0px 0px 10px #000;
+    
+}
+
+/*POSICIONAMENTO DO MENU*/
+.menu{
+    padding: 0px 0px;
+    margin-left: 40px;
+    margin-top: -75px;
+}
+
+/*MENU*/
+.menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.menu ul li {
+    float: left;
+    position: relative;
+    margin-left: 108px;
+}
+
+/*HORIZONTAL*/
+.menu ul li a{
+    display: inline-block;
+    text-decoration: none;
+    background-color: #bd5eef;
+    padding: 10px 30px ;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+}
+
+/*SUB MENU*/
+.menu ul li ul{
+    display: none;
+    position: absolute;
+}
+
+/*ITENS DO MENU*/
+.menu li:hover ul {
+    display: block;
+}
+
+/*SUB MENU COR*/
+.menu ul li ul li a:hover{
+    background-color: #7a05b8;
+}
+
+/*LARGURA DO SUB MENU*/
+.menu ul li ul li a{
+    width: 50px;
+}
+
+li a{
+    color: black;
+    font-family: 'Secular One', sans-serif;
+    font-size: 15px;
+}
+
+/*LOGO*/
+.logo{
+    margin-left: 10px;
+}
+
+/*BOX MENU*/
+.header{
+    background-color:#D8BFD8;
+}
+
+/*BOX STRIX*/
+
+.strix{
+    background-color: #B0E0E6;
+    float: right;
+    box-shadow: 0px 0px 10px #000;
+    padding: 20px;
+    width: 960px;
+    height: 170px;
+    margin-top: 50px;
+}
+
+/*BOX FOTOS*/
+
+.galeria{
+    float: right;
+    margin-top: 18px; 
+    background-color: #D8BFD8;
+    width: 1000px;
+    box-shadow: 0px 0px 10px #000;
+}
+
+.img1, .img2, .img3, .img4, .img5, .img6, .img7, .img10, .img11{
+    margin-left: 63px;
+    margin-top: 55px;
+    float: left;
+    height: 230px;
+}
+
+.img5, .img4, .img7{
+    margin-bottom: 75px;
+}
+
+/*BOX SISTEMA DA ARMA*/
+
+.arma{
+    background-color: #B0E0E6;
+    float: right;
+    box-shadow: 0px 0px 10px #000;
+    padding: 20px;
+    width: 432px;
+    height: 235px;
+    margin-top: 50px;
+    margin-left: 55px;
+
+}
+
+/*BOX HARDWARE*/
+
+.hardware{
+    background-color: #B0E0E6;
+    float: right;
+    box-shadow: 0px 0px 10px #000;
+    padding: 20px;
+    width: 432px;
+    height: 235px;
+    margin-top: 50px;
+    
+}
+
+/*BOX VIDEOS*/
+
+.videos{
+    background-color:  black;
+    float: right;
+    box-shadow: 0px 0px 10px #000;
+    padding: 20px;
+    width: 960px;
+    height: 250px;
+    margin-top: 50px;
+
+}
+
+
+.video2{
+    float: right;
+    margin-top: -45px
+   
+}
+
+/*BOTAO VIDEO 1 E 2*/
+
+.btn {
+    position: relative;
+    width: 120px;
+    margin-left: 0px;
+    padding: 5px;
+    top: 0px;
+    margin-top: -260px;
+    text-align: center;
+    background-color: #ff47fd;
+    font-family: 'Secular One', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #B0E0E6;
+}
+
+/*IMAGENS INTEGRANTES*/
+
+.ana1, .celio1, .giovanna1, .rafaela1, .thaynara1{
+    box-shadow: 0px 0px 10px #000;
+    margin-left: 35px;
+   
+}
+
+/*BOX GRUPO*/
+
+.grupo{
+    background-color: #B0E0E6;
+    float: right;
+    box-shadow: 0px 0px 10px #000;
+    padding: 10px;
+    width: 977px;
+    height: 480px;
+    margin-top: 50px;
+    
+    
+}
+
+/*BOX DA IMAGENS DOS INTEGRANTES*/
+
+.ana, .celio, .giovanna, .rafaela, .thaynara{
+    background-color:#B0E0E6;
+    width: 180px;
+    float: left;
+    margin-left: 5px;
+    margin-bottom: 20px;
+}
+
+/*PARAGRÁFOS, TÍTULOS*/
+
+p, h1, h2, h3{
+    text-align: center;
+    
+}
+
+
+/*BOX ROBOCUP*/
+
+.robocup{
+    background-color: #B0E0E6;
+    float: right;
+    box-shadow: 0px 0px 10px #000;
+    padding: 20px;
+    width: 420px;
+    height: 380px;
+    margin-top: 50px;
+    margin-left: 55px;
+
+}
+
+/*BOX NEXT*/
+
+.next{
+    background-color: #B0E0E6;
+    float: right;
+    box-shadow: 0px 0px 10px #000;
+    padding: 20px;
+    width: 440px;
+    height: 380px;
+    margin-top: 50px;
+}
+
+/*BOX SEJA PARCEIRO*/
+
+.formulario{
+    background-color: #B0E0E6;
+    float: right;
+    box-shadow: 0px 0px 10px #000;
+    padding: 20px;
+    width: 955px;
+    height: 485px;
+    margin-top: 50px;
+}
+
+/*BOTAO FORMULARIO*/
+
+.btn1{
+    position: relative;
+    width: 120px;
+    margin-left: 0px;
+    padding: 5px;
+    top: 0px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: 	#bb5fed;
+    font-family: 'Secular One', sans-serif;
+}
+
+.btn1:hover {
+    background-color: #7a05b8;
+}
+
+/*RODAPÉ*/
+.rodape
+{
+    background-color: #D8BFD8;
+    float: right;
+    box-shadow: 0px 0px 10px #000;
+    padding: 20px;
+    width: 955px;
+    height: 110px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+.rodapelista1, .rodapelista2, .youtube, .inicio, .copyright, .titulo{
+    list-style: none;
+    float: left;
+    margin-left: 60px;
+    
+}
+
+a:visited {
+    color: black;
+}
+
+.titulo {
+    font-family: 'Alfa Slab One', cursive;
+}
+
+.titulo{
+    font-size: large;
+}
+
+h1, h2, h3, .youtube, .inicio{
+    font-family: 'Secular One', sans-serif;
+}
